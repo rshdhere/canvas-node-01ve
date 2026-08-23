@@ -67,4 +67,4 @@ export default function HomePage() {
       <GameCanvas />
     </main>
   );
-}
+};
