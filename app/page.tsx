@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from 'react';
 
 const GameCanvas = () => {
@@ -39,12 +40,7 @@ const GameCanvas = () => {
   return (
     <div className="game">
       <h1>Flappy Bird</h1>
-      <canvas width={400} height={400} className="game-canvas">
-        {/
-          Bird Position: {birdY}
-          You can jump by pressing the spacebar!
-        /}
-      </canvas>
+      <canvas width={400} height={400} className="game-canvas">Bird Position: {birdY}</canvas>
       <style jsx>{`
         .game {
           display: flex;
