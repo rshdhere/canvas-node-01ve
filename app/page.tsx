@@ -41,7 +41,7 @@ const GameCanvas = () => {
     <div className="game">
       <h1>Flappy Bird</h1>
       <canvas width={400} height={400} className="game-canvas">Bird Position: {birdY}</canvas>
-      <style jsx>{`
+      <style jsx>{`{
         .game {
           display: flex;
           flex-direction: column;
@@ -56,7 +56,7 @@ const GameCanvas = () => {
           background-color: #ffec40;
           border: 2px solid black;
         }
-      `}</style>
+      }`}</style>
     </div>
   );
 };
